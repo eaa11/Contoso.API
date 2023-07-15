@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqls-contoso-dev/databases/sqldb-contoso-dev",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConection"
+    }
+  }
+}
