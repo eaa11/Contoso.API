@@ -26,6 +26,10 @@ namespace Contoso.API.Controllers
             _mapper = mapper;
         }
 
+        
+        /// <summary>
+        /// Testing from az powershell
+        /// </summary>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AddressDto>>> GetAddresses(int customerId)
         {
